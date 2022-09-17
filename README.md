@@ -18,7 +18,14 @@ Lakukan perintah berikut untuk menginstall dependencies.
 ```bash
 npm install
 ```
-Setelah berhasil menginstall, kita dapat menjalankan program dengan perintah.
+Ubah nama file **.example.env** menjadi **.env**, lalu isi file tersebut dengan nilai yang diinginkan
+
+Contoh:
+```sh
+APP_PORT=8000
+JWT_KEY=In14d@l@hK3yD4R1JWT
+```
+Setelah berhasil menginstall dan mengubah nama serta isi file, kita dapat menjalankan program dengan perintah.
 ```bash
 npm start
 ```
